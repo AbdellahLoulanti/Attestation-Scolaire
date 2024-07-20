@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `gl`
+-- Database: `gl_1`
 --
 
 -- --------------------------------------------------------
@@ -62,31 +62,23 @@ CREATE TABLE `archive` (
 --
 
 INSERT INTO `archive` (`id`, `nom`, `prenom`, `apoge`, `cne`, `email`, `filiere`, `choix`) VALUES
-(22, 'belhadj', 'kholoud', 180369, 'p123456', 'kholoudbelhadj@gmail.com', 'GI2', ''),
-(23, 'bellhadj', 'kholoud', 5464646, '641646', 'kholoudbenlhadj@gmail.com', 'GI2', 'attestation'),
-(24, 'belhadj', 'kholoud', 180369, 'p123456', 'kholoudbenlhadj@gmail.com', 'GI2', ''),
-(25, 'belhadj', 'kholoud', 180369, 'p123456', 'kholoudbenlhadj@gmail.com', 'GI2', ''),
-(26, 'belhadj', 'kholoud', 180369, 'p123456', 'kholoudbenlhadj@gmail.com', 'GI2', ''),
-(27, 'belhadj', 'kholoud', 180369, 'p123456', 'kholoudbenlhadj@gmail.com', 'GI2', ''),
-(28, 'belhadj', 'kholoud', 180369, 'p123456', 'kholoudbenlhadj@gmail.com', 'GI2', ''),
-(29, 'belhadj', 'kholoud', 180369, 'p123456', 'kholoudbenlhadj@gmail.com', 'GI2', ''),
-(30, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(31, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(32, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(33, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(34, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(35, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(36, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(37, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(38, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(39, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(40, 'Jamal', 'Meryem', 19040439, 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2', ''),
-(41, 'belhadj', 'kholoud', 180369, 'p123456', 'kholoudbenlhadj@gmail.com', 'GI2', ''),
-(42, 'belhadj', 'Kholoud', 180369, 'p123456', 'kholoudbenlhadj@gmail.com', 'GI2', '');
+(22, 'asouik', 'abdelhak', 180369, 'p123456', 'abdelhakasouik@gmail.com', 'GI2', ''),
+(23, 'loulanti', 'abdellah', 5464646, '641646', 'abdellahloulanti@gmail.com', 'GI2', 'attestation'),
+(24, 'akoubri', 'ayoub', 180369, 'p123456', 'ayoubakoubri@gmail.com', 'GI2', ''),
+(25, 'elkharraz', 'saad', 180369, 'p123456', 'saadelkharraz@gmail.com', 'GI2', ''),
+(26, 'elkassimi', 'asmae', 180369, 'p123456', 'asmaeelkassimi@gmail.com', 'GI2', ''),
+(27, 'asouik', 'abdelhak', 180369, 'p123456', 'abdelhakasouik@gmail.com', 'GI2', ''),
+(28, 'loulanti', 'abdellah', 5464646, '641646', 'abdellahloulanti@gmail.com', 'GI2', 'attestation'),
+(29, 'akoubri', 'ayoub', 180369, 'p123456', 'ayoubakoubri@gmail.com', 'GI2', ''),
+(30, 'elkharraz', 'saad', 180369, 'p123456', 'saadelkharraz@gmail.com', 'GI2', ''),
+(31, 'elkassimi', 'asmae', 180369, 'p123456', 'asmaeelkassimi@gmail.com', 'GI2', ''),
+(32, 'asouik', 'abdelhak', 180369, 'p123456', 'abdelhakasouik@gmail.com', 'GI2', ''),
+(33, 'loulanti', 'abdellah', 5464646, '641646', 'abdellahloulanti@gmail.com', 'GI2', 'attestation'),
+(34, 'akoubri', 'ayoub', 180369, 'p123456', 'ayoubakoubri@gmail.com', 'GI2', ''),
+(35, 'elkharraz', 'saad', 180369, 'p123456', 'saadelkharraz@gmail.com', 'GI2', ''),
+(36, 'elkassimi', 'asmae', 180369, 'p123456', 'asmaeelkassimi@gmail.com', 'GI2', '');
 
 -- --------------------------------------------------------
-
---
 -- Table structure for table `archive_conv`
 --
 
@@ -111,19 +103,16 @@ CREATE TABLE `archive_conv` (
 --
 
 INSERT INTO `archive_conv` (`id`, `nom`, `prenom`, `filiere`, `email`, `apoge`, `cne`, `nom_entreprise`, `adress_entreprise`, `telephone`, `telecopie`, `nature`, `nom_representant`) VALUES
-(1, 'ghada', 'jamal', 'gi2', 'ghada@gmail.com', '', '', 'sdjcbjdscbldsc', 'skdbckjdscbkjdsc', 0, 0, 'jdscldsclds', 'ksc kjds cksdc'),
-(2, 'EL BAGHDADI', 'Houda', 'GI2', 'houdabaghdadi@gmail.com', '', '', 'devinweb', 'tetouan chore', 326111, 226566, 'internhip', 'christain'),
-(3, 'kaouatr', 'nemqdi', 'GI2', 'kaoutarnemqadi@gmail.com', '', '', 'let\'s code', 'tanger', 545454, 0, 'internhip', 'devid'),
-(4, 'maimouni', 'Ikram', 'GI1', 'maimouniikram@gmail.com', '', '', 'medi1', 'Tanger', 632145987, 9874563, 'stagiere', 'representant'),
-(7, 'luca', 'belhadj', 'GI1', 'lucabelhadj@gmail.com', '', '', 'devinweb', 'tetouan chore', 53698232, 8965251, 'stage', 'alex'),
-(8, 'eanbar', 'basiri', 'GI2', 'eanbarbasiri@gmail.com', '', '', 'let\'s code', 'tetouan chore', 662184949, 9865, 'stage', 'david'),
-(9, 'ouald belhadj', 'kholoud', '2ap1', 'kholoudbelhadj@gmail.com', '', '', 'devinweb', 'tetouan chore', 368761616, 6564651, 'stage', 'david'),
-(10, 'elhor', 'taha', 'GI2', 'elhortaha@gmail.com', '', '', 'ntt data', 'cabo', 2147483647, 468, 'stage', 'alex'),
-(11, 'mrabet', 'ali', '2ap2', 'mrabetali@gmail.com', '', '', '1337 school', 'tetuan chore', 64598123, 987456, 'stagiare', 'mohammed'),
-(12, 'belhadj', 'kholoud', 'GI2', 'kholoudbenlhadj@gmail.com', '', '', 'devinweb', 'tetouan chore', 368761616, 6564651, 'stage', 'david'),
-(13, 'belhadj', 'kholoud', 'GI2', 'kholoudbenlhadj@gmail.com', '', '', '', '', 0, 0, '', ''),
-(14, 'Jamal', 'Meryem', 'SCM2', 'kholoudbenlhadj@gmail.com', '', '', '', '', 0, 0, '', '');
-
+(1, 'abdellah', 'loulanti', 'gi2', 'abdellahloulanti@gmail.com', '', '', 'sdjcbjdscbldsc', 'skdbckjdscbkjdsc', 0, 0, 'jdscldsclds', 'ksc kjds cksdc'),
+(2, 'asouik', 'abdelhak', 'GI2', 'abdelhakasouik@gmail.com', '', '', 'devinweb', 'tetouan chore', 326111, 226566, 'internhip', 'christain'),
+(3, 'akoubri', 'ayoub', 'GI2', 'ayoubakoubri@gmail.com', '', '', 'let\'s code', 'tanger', 545454, 0, 'internhip', 'devid'),
+(4, 'elkassimi', 'asmae', 'GI2', 'asmaeelkassimi@gmail.com', '', '', 'medi1', 'Tanger', 632145987, 9874563, 'stagiere', 'representant'),
+(5, 'elkharraz', 'saad', 'GI1', 'saadelkharraz@gmail.com', '', '', 'devinweb', 'tetouan chore', 53698232, 8965251, 'stage', 'alex'),
+(6, 'abdellah', 'loulanti', 'gi2', 'abdellahloulanti@gmail.com', '', '', 'sdjcbjdscbldsc', 'skdbckjdscbkjdsc', 0, 0, 'jdscldsclds', 'ksc kjds cksdc'),
+(7, 'asouik', 'abdelhak', 'GI2', 'abdelhakasouik@gmail.com', '', '', 'devinweb', 'tetouan chore', 326111, 226566, 'internhip', 'christain'),
+(8, 'akoubri', 'ayoub', 'GI2', 'ayoubakoubri@gmail.com', '', '', 'let\'s code', 'tanger', 545454, 0, 'internhip', 'devid'),
+(9, 'elkassimi', 'asmae', 'GI2', 'asmaeelkassimi@gmail.com', '', '', 'medi1', 'Tanger', 632145987, 9874563, 'stagiere', 'representant'),
+(10, 'Jamal', 'Meryem', 'SCM2', 'kholoudbenlhadj@gmail.com', '', '', '', '', 0, 0, '', '');
 -- --------------------------------------------------------
 
 --
@@ -147,9 +136,10 @@ CREATE TABLE `archive_rel` (
 --
 
 INSERT INTO `archive_rel` (`id`, `apogee`, `filiere`, `nom`, `prenom`, `CNE`, `date_naissance`, `ville`, `email`) VALUES
-(1, 19040439, 'SCM2', 'Jamal', 'Meryem', 'M144052026', '0000-00-00', '', 'kholoudbenlhadj@gmail.com'),
-(2, 180369, 'GI2', 'belhadj', 'kholoud', 'p123456', '0000-00-00', '', 'kholoudbenlhadj@gmail.com'),
-(3, 180369, 'GI2', 'belhadj', 'Kholoud', 'p123456', '0000-00-00', '', 'kholoudbenlhadj@gmail.com');
+(1, 19040439, 'SCM2', 'asouik', 'abdelhak', 'M144052026', '0000-00-00', '', 'abdelhakasouik@gmail.com'),
+(2, 180369, 'GI2', 'abdellah', 'loulanti', 'p123456', '0000-00-00', '', 'abdellahloulanti@gmail.com'),
+(3, 180369, 'GI2', 'abdellah', 'loulanti', 'p123456', '0000-00-00', '', 'abdellahloulanti@gmail.com');
+
 
 -- --------------------------------------------------------
 
@@ -168,7 +158,6 @@ CREATE TABLE `demandeatt` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `demandeconv`
 --
@@ -177,10 +166,10 @@ CREATE TABLE `demandeconv` (
   `id` int(11) NOT NULL,
   `nom` varchar(30) NOT NULL,
   `prenom` varchar(30) NOT NULL,
+   `filiere` varchar(30) NOT NULL,
+     `email` varchar(30) NOT NULL,
   `apoge` varchar(10) NOT NULL,
   `cne` varchar(10) NOT NULL,
-  `email` varchar(30) NOT NULL,
-  `filiere` varchar(30) NOT NULL,
   `nom_entreprise` varchar(30) NOT NULL,
   `adress_entreprise` varchar(30) NOT NULL,
   `telephone` int(11) NOT NULL,
@@ -188,6 +177,18 @@ CREATE TABLE `demandeconv` (
   `nature` varchar(30) NOT NULL,
   `nom_representant` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+INSERT INTO `demandeconv` (`id`, `nom`, `prenom`, `filiere`, `email`, `apoge`, `cne`, `nom_entreprise`, `adress_entreprise`, `telephone`, `telecopie`, `nature`, `nom_representant`) VALUES
+(1, 'abdellah', 'loulanti', 'gi2', 'abdellahloulanti@gmail.com', '', '', 'sdjcbjdscbldsc', 'skdbckjdscbkjdsc', 0, 0, 'jdscldsclds', 'ksc kjds cksdc'),
+(2, 'asouik', 'abdelhak', 'GI2', 'abdelhakasouik@gmail.com', '', '', 'devinweb', 'tetouan chore', 326111, 226566, 'internhip', 'christain'),
+(3, 'akoubri', 'ayoub', 'GI2', 'ayoubakoubri@gmail.com', '', '', 'let\'s code', 'tanger', 545454, 0, 'internhip', 'devid'),
+(4, 'elkassimi', 'asmae', 'GI2', 'asmaeelkassimi@gmail.com', '', '', 'medi1', 'Tanger', 632145987, 9874563, 'stagiere', 'representant'),
+(5, 'elkharraz', 'saad', 'GI1', 'saadelkharraz@gmail.com', '', '', 'devinweb', 'tetouan chore', 53698232, 8965251, 'stage', 'alex'),
+(6, 'abdellah', 'loulanti', 'gi2', 'abdellahloulanti@gmail.com', '', '', 'sdjcbjdscbldsc', 'skdbckjdscbkjdsc', 0, 0, 'jdscldsclds', 'ksc kjds cksdc'),
+(7, 'asouik', 'abdelhak', 'GI2', 'abdelhakasouik@gmail.com', '', '', 'devinweb', 'tetouan chore', 326111, 226566, 'internhip', 'christain'),
+(8, 'akoubri', 'ayoub', 'GI2', 'ayoubakoubri@gmail.com', '', '', 'let\'s code', 'tanger', 545454, 0, 'internhip', 'devid'),
+(9, 'elkassimi', 'asmae', 'GI2', 'asmaeelkassimi@gmail.com', '', '', 'medi1', 'Tanger', 632145987, 9874563, 'stagiere', 'representant'),
+(10, 'Jamal', 'Meryem', 'SCM2', 'kholoudbenlhadj@gmail.com', '', '', '', '', 0, 0, '', '');
 
 -- --------------------------------------------------------
 
@@ -212,16 +213,18 @@ CREATE TABLE `demanderel` (
 --
 
 INSERT INTO `demanderel` (`id`, `apogee`, `filiere`, `nom`, `prenom`, `CNE`, `date_naissance`, `ville`, `email`) VALUES
-(2, 1904579, 'GI2', 'Jamal', 'Insaf', 'M144043200', '2001-10-20', 'Khenifra', 'kholoudbenlhadj@gmail.com'),
-(3, 19040439, 'SCM2', 'Jamal', 'Meryem', 'M144052026', '2009-03-19', 'Khenifra', 'kholoudbenlhadj@gmail.com'),
-(6, 19040439, '', 'Jamal', 'Meryem', '', '0000-00-00', '', 'kholoudbenlhadj@gmail.com'),
-(7, 19040439, '', 'Jamal', 'Meryem', '', '0000-00-00', '', 'kholoudbenlhadj@gmail.com'),
-(10, 19040439, 'SCM2', 'Jamal', 'Meryem', 'M144052026', '0000-00-00', '', 'kholoudbenlhadj@gmail.com'),
-(11, 19040439, 'SCM2', 'Jamal', 'Meryem', 'M144052026', '0000-00-00', '', 'kholoudbenlhadj@gmail.com'),
-(12, 180369, 'GI2', 'belhadj', 'kholoud', 'p123456', '0000-00-00', '', 'kholoudbenlhadj@gmail.com'),
-(13, 180369, 'GI2', 'belhadj', 'kholoud', 'p123456', '0000-00-00', '', 'kholoudbenlhadj@gmail.com'),
-(14, 180369, 'GI2', 'belhadj', 'Kholoud', 'p123456', '0000-00-00', '', 'kholoudbenlhadj@gmail.com'),
-(15, 180369, 'GI2', 'belhadj', 'Kholoud', 'p123456', '0000-00-00', '', 'kholoudbenlhadj@gmail.com');
+(2, 1904579, 'GI2', 'asouik', 'abdelhak', 'M144043200', '2001-10-20', 'tetouan', 'abdelhakasouik@gmail.com'),
+(3, 19040439, 'SCM2', 'loulanti', 'abdellah', 'M144052026', '2009-03-19', 'tetouan', 'abdellahloulanti@gmail.com'),
+(6, 19040439, '', 'Jamal', 'ayoub', '', '0000-00-00', '', 'ayoubakoubri@gmail.com'),
+(7, 19040439, '', 'akoubri', 'ayoub', '', '0000-00-00', '', 'ayoubakoubri@gmail.com'),
+(10, 19040439, 'SCM2', 'elkassimi', 'asmae', 'M144052026', '0000-00-00', '', 'asmaeelkassimi@gmail.com'),
+(11, 19040439, 'SCM2', 'elkharraz', 'saad', 'M144052026', '0000-00-00', '', 'saadelkharraz@gmail.com'),
+(12, 19040439, 'SCM2', 'elkharraz', 'saad', 'M144052026', '0000-00-00', '', 'saadelkharraz@gmail.com'),
+(13, 19040439, 'SCM2', 'elkharraz', 'saad', 'M144052026', '0000-00-00', '', 'saadelkharraz@gmail.com'),
+(14, 19040439, 'SCM2', 'elkharraz', 'saad', 'M144052026', '0000-00-00', '', 'saadelkharraz@gmail.com'),
+(15, 19040439, 'SCM2', 'elkharraz', 'saad', 'M144052026', '0000-00-00', '', 'saadelkharraz@gmail.com');
+
+
 
 -- --------------------------------------------------------
 
@@ -244,9 +247,11 @@ CREATE TABLE `etudiant1` (
 --
 
 INSERT INTO `etudiant1` (`id`, `nom`, `prenom`, `apoge`, `cne`, `email`, `filiere`) VALUES
-(1, 'belhadj', 'kholoud', '180369', 'p123456', 'kholoudbenlhadj@gmail.com', 'GI2'),
-(2, 'baghdadi', 'houda', '180789', 'p4569751', 'houdabaghdadi@gmail.com', 'GI2'),
-(5, 'Jamal', 'Meryem', '19040439', 'M144052026', 'kholoudbenlhadj@gmail.com', 'SCM2');
+(1, 'asouik', 'abdelhak', '180369', 'p123456', 'abdelhakasouik@gmail.com', 'GI2'),
+(2, 'loulanti', 'abdellah', '180789', 'p4569751', 'abdellahloulanti@gmail.com', 'GI2'),
+(3, 'elkassimi', 'asmae', '180729', 'p4569751', 'asmaeelkassimi@gmail.com', 'GI2'),
+(4, 'elkharraz', 'saad', '180749', 'p4569751', 'saadelkharraz@gmail.com', 'GI2'),
+(5, 'akoubri', 'ayoub', '19040439', 'M144052026', 'ayoubakoubri@gmail.com', 'SCM2');
 
 -- --------------------------------------------------------
 
@@ -331,10 +336,6 @@ ALTER TABLE `archive`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `archive_conv`
---
-ALTER TABLE `archive_conv`
-  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `archive_rel`
@@ -383,10 +384,7 @@ ALTER TABLE `archive`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 
 --
--- AUTO_INCREMENT for table `archive_conv`
---
-ALTER TABLE `archive_conv`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
 
 --
 -- AUTO_INCREMENT for table `archive_rel`
